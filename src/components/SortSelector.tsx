@@ -5,12 +5,15 @@ const SortSelector = () => {
   return (
     <Menu>
       <MenuButton as={Button} rightIcon={<BsChevronDown />}>
-        Order by:{" "}
+        Order by: Relevance
       </MenuButton>
       <MenuList>
-        <MenuItem>item1</MenuItem>
-        <MenuItem>item2</MenuItem>
-        <MenuItem>item3</MenuItem>
+        <MenuItem>Relevance</MenuItem>
+        <MenuItem>Date added</MenuItem>
+        <MenuItem>Name</MenuItem>
+        <MenuItem>Release date</MenuItem>
+        <MenuItem>Popularity</MenuItem>
+        <MenuItem>Average rating</MenuItem>
       </MenuList>
     </Menu>
   );

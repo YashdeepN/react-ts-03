@@ -52,7 +52,7 @@ const App = () => {
           </GridItem>
         </Show>
         <GridItem area="main">
-          <HStack>
+          <HStack marginLeft={3} marginBottom={5}>
             <PlatformSelector
               selectedPlatform={gameQuery.platform}
               onSelectPlatform={handlePlatformClick}
